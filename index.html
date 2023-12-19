@@ -8,6 +8,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
     <title>Personal Portofolio</title>
   </head>
   <body>
@@ -47,12 +48,13 @@
     </header>
     <section class="container">
       <h2 class="header">My Skills</h2>
+</div>
       <div class="features" style="max-width: 250px; height: auto;">
         <center>
           <table>
             <tr>
               <td>
-                <div class="card" style="height: auto;">
+                <div data-aos="fade-up" class="card" style="height: auto;">
                   <span style="background-color: transparent;">
                     <table cellpadding="8">
                       <tr>
@@ -64,7 +66,7 @@
                 </div>
               </td>
               <td>
-                <div class="card" style="height: auto;">
+                <div data-aos="fade-up" class="card" style="height: auto;">
                   <span style="background-color: transparent;">
                     <table cellpadding="8">
                       <tr>
@@ -76,7 +78,7 @@
                 </div>
               </td>
               <td>
-                <div class="card" style="height: auto;">
+                <div data-aos="fade-up" class="card" style="height: auto;">
                   <span style="background-color: transparent;">
                     <table cellpadding="8">
                       <tr>
@@ -88,7 +90,7 @@
                 </div>
               </td>
               <td>
-                <div class="card" style="height: auto;">
+                <div data-aos="fade-up" class="card" style="height: auto;">
                   <span style="background-color: transparent;">
                     <table cellpadding="8">
                       <tr>
@@ -103,7 +105,7 @@
             </tr>
             <tr>
               <td colspan="2">
-                <div class="card" style="height: auto;">
+                <div data-aos="fade-up" class="card" style="height: auto;">
                   <span style="background-color: transparent;">
                     <table cellpadding="8">
                       <tr>
@@ -126,7 +128,7 @@
         Explore the projects I've worked on so far
       </p>
       </div>
-      <div class="portfolio-card">
+      <div data-aos="flip-left" class="portfolio-card">
           <img src="img/personalweb.jpg" alt="Deskripsi Proyek">
           <h2>Personal Portofolio</h2>
           <p>My personal website, I created this website to display
@@ -134,26 +136,26 @@
             technology.
           </p>
         </div>
-      <div class="portfolio-card">
+      <div data-aos="flip-left" class="portfolio-card">
         <img src="img/porto2.png" alt="Deskripsi Proyek">
         <h2>Coban_Binangun</h2>
         <p>Ini adalah project yang saya kerjakan dengan teman seangkatan saya, yaitu membuat Augmented Reality tentang pengenalan wisata berbasis 3D</p>
     </div>
-    <div class="portfolio-card">
+    <div data-aos="flip-left" class="portfolio-card">
       <img src="img/porto1.png" alt="Deskripsi Proyek">
       <h2>AR_Unity_Arjuno</h2>
       <p>Dimana membahas tentang Pengenalan Jalur Pendakian yang ada di Gunung Arjuno
         agar memudahkan para pendaki untuk menentukan jalur pendakian
       </p>
   </div>
-    <div class="portfolio-card">
+    <div data-aos="flip-left" class="portfolio-card">
       <img src="img/porto3.png" alt="Deskripsi Proyek">
       <h2>Website_Film</h2>
       <p>Website Film Sederhana seperti halnya website LK21. Dimana website ini hanya dapat melihat
         list film populer.
       </p>
     </div>
-    <div class="portfolio-card">
+    <div data-aos="flip-left" class="portfolio-card">
       <img src="img/porto4.png" alt="Deskripsi Proyek">
       <h2>Flora_AR</h2>
       <p>Augmented Reality (AR) pengenalan tanaman ke user dimana dapat melihat bentuk tanaman (Plantae) secara 3D
@@ -176,7 +178,7 @@
         </p>
       </div>
       <div class="column">
-        <div class="socials">
+        <div data-aos="fade-down" class="socials">
         <a href="https://www.linkedin.com/in/muhammad-fachruddin0829/"><i class="ri-linkedin-box-line"></i></a>
         <a href="https://www.instagram.com/muhammadfahrul_253/"><i class="ri-instagram-line"></i></a>
         <a href="https://github.com/MuhammadFachruddin"><i class="ri-github-fill"></i></a>  
@@ -194,5 +196,9 @@
       }
       </script>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
   </body>
 </html>

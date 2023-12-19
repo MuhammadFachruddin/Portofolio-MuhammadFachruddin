@@ -12,7 +12,7 @@
   width: 300px;
   height: 300px;
   margin: 100px auto;
-  background-color: #c6ac8f;
+  background-color: #ffffff;
   border: 5px solid #333;
   border-radius: 50px;
   overflow: hidden;
@@ -334,7 +334,7 @@ footer .column .socials a:hover{
   text-align: center;
 }
 
-@media (widht < 900px){
+@media (min-widht < 767px){
   .nav-links{
     display: none;
   }
